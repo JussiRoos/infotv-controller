@@ -19,5 +19,5 @@ def unfreeze_screen():
     subprocess.run(["xdotool", "key", "Escape"]) # Exit out of feh
 
 while True:
+    time.sleep(30)
     refresh()
-    time.sleep(10)
