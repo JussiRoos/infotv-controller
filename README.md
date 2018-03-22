@@ -14,7 +14,3 @@ Tämä ohje on suunniteltu Raspberry Pi -tietokoneilla, joissa on käytössä Ra
    ```
    cd ~/infotv-controller && sh SETUP.sh
    ```
-
-!!!
-TODO:
-- Tarkista SETUP.sh:n autostart-path
