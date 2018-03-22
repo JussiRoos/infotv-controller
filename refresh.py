@@ -6,7 +6,7 @@ def refresh():
     prepare_freeze_screen() # "Freeze" the screen
     subprocess.run(["xdotool", "key", "F5"]) # Refresh
     freeze_screen()
-    time.sleep(9) # Sleep for a bit, wait for the browser to refresh
+    time.sleep(7) # Sleep for a bit, wait for the browser to refresh
     unfreeze_screen() # "Unfreeze" the screen
 
 def prepare_freeze_screen():
@@ -18,6 +18,7 @@ def freeze_screen():
 def unfreeze_screen():
     subprocess.run(["xdotool", "key", "Escape"]) # Exit out of feh
 
+time.sleep(60)
 while True:
-    time.sleep(50)
+    time.sleep(10)
     refresh()

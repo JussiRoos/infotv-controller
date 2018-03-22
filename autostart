@@ -4,5 +4,5 @@
 @xset s off
 @xset -dpms
 @xset s noblank
-@chromium-browser --noerrdialogs --kiosk https://docs.google.com/presentation/d/e/2PACX-1vRZpXNtuoV69BbfTlrbwIDCZeYL9OnmTwoej-gu7h0J68agp4C-OVSFMJsHjrFET4ui9A80EZutyhXr/pub?start=true&loop=true&delayms=15000#slide=id.g34c7e0e79d_0_8 --incognito
+@chromium-browser --noerrdialogs --kiosk https://docs.google.com/presentation/d/e/2PACX-1vRZpXNtuoV69BbfTlrbwIDCZeYL9OnmTwoej-gu7h0J68agp4C-OVSFMJsHjrFET4ui9A80EZutyhXr/pub?start=true&loop=true&delayms=10000#slide=id.g34c7e0e79d_0_8 --incognito
 @python3 /home/pi/infotv-controller/refresh.py
